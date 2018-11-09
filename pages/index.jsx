@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 import logo from '../static/logo.svg';
 
-export default class Home extends Component {
+class Home extends Component {
   render() {
     return  <div>
     			<h1>Sandor</h1>
@@ -12,3 +12,5 @@ export default class Home extends Component {
     		</div>
   }
 }
+
+export default Home
